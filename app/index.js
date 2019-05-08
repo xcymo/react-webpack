@@ -14,7 +14,7 @@ ReactDOM.render(
     // Router basename 层级关系
     // forceRefresh 强制刷新，没听懂，先关掉
     /*
-        几种路由模式： 1. BrowserRouter 缺点：刷新后会找不到页面但是URL比较漂亮；
+        几种路由模式  1. BrowserRouter 缺点：刷新后会找不到页面但是URL比较漂亮；
                     2.  HashRouter 缺点：URL不漂亮，带个#； 优点： 刷新后可以直接看
                     3.  MemoryRouter 缺点： 不能前进后退； 优点：URL漂亮
                     4. NativeRouter react-native使用
